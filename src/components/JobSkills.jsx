@@ -5,18 +5,18 @@ import adobeXD from "../assets/svg/adobeXD.svg";
 
 const JobSkills = () => {
   return (
-    <section className="px-24 py-8 w-full border-b border-solid border-neutral-300">
+    <section className="px-20 py-9 w-full border-b border-solid border-neutral-300">
       <div className="w-4/5 flex gap-8">
         <div className="flex flex-col w-3/12 ">
           <div className="flex flex-col grow px-5 text-xs font-medium text-slate-700 max-md:mt-10">
             <div className="text-sm text-neutral-500">Skills Required</div>
-            <div className="flex flex-col justify-center px-2 py-1 mt-2 w-fit text-center whitespace-nowrap bg-white rounded-md border border-gray-300 border-solid">
+            <div className="flex flex-col justify-center px-2 py-[3px] mt-2 w-fit text-center whitespace-nowrap bg-white rounded-md border border-gray-300 border-solid">
               <div className="flex gap-1 items-center">
                 <img loading="lazy" src={figma} alt="figma logo" />
                 <span>Figma</span>
               </div>
             </div>
-            <div className="flex flex-col justify-center px-2 py-1 mt-2 w-[145px] text-center bg-white rounded-md border border-gray-300 border-solid">
+            <div className="flex flex-col justify-center px-2 py-[3px] mt-2 w-[145px] text-center bg-white rounded-md border border-gray-300 border-solid">
               <div className="flex gap-1 items-center">
                 <img
                   loading="lazy"
@@ -26,7 +26,7 @@ const JobSkills = () => {
                 <span>Adobe Illustrator</span>
               </div>
             </div>
-            <div className="flex flex-col w-fit justify-center px-2 py-1 mt-2 text-center bg-white rounded-md border border-gray-300 border-solid">
+            <div className="flex flex-col w-fit justify-center px-2 py-[3px] mt-2 text-center bg-white rounded-md border border-gray-300 border-solid">
               <div className="flex gap-1 items-center">
                 <img loading="lazy" src={adobeXD} alt="adobe xd logo" />
                 <span>Adobe XD</span>

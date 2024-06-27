@@ -3,13 +3,13 @@ import atlassianLogo from "../assets/svg/atlassianLogo.svg";
 
 const CompanyInfo = () => {
   return (
-    <section className="flex flex-col justify-center font-medium w-full px-24 py-10">
+    <section className="flex flex-col justify-center font-medium w-full px-20 py-12">
       <div className="flex gap-3 justify-center self-start px-5 text-xl whitespace-nowrap text-neutral-600">
         <img loading="lazy" src={atlassianLogo} alt="atlassian logo" />
         <div className="my-auto">Atlassian</div>
       </div>
       <div className="flex flex-row gap-16 mt-6">
-        <div className="flex gap-5 flex-col">
+        <div className="flex gap-6 flex-col">
           <div className="flex flex-col px-5">
             <div className="text-sm text-neutral-500">Company size</div>
             <div className="mt-2 text-base whitespace-nowrap text-ellipsis text-neutral-700">
@@ -29,7 +29,7 @@ const CompanyInfo = () => {
             </div>
           </div>
         </div>
-        <div className="flex gap-5 flex-col">
+        <div className="flex gap-6 flex-col">
           <div className="flex flex-col px-5 whitespace-nowrap">
             <div className="text-sm text-neutral-500">Type</div>
             <div className="mt-2 text-base text-ellipsis text-neutral-700">
